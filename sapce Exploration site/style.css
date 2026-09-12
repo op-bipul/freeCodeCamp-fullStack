@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+}
+
+
+@font-face {
+    font-family: "Orbitron";
+    src: url('Orbitron-Font.ttf');
+}
+
+
+#logo {
+    width: 100px;
+}
+
+
+body {
+    font-family: "Orbitron", sans-serif;
+    text-align: center;
+    color: #5E8A99;
+}
+
+
+.hero {
+    background-image: url('./image/galaxy.webp');
+    background-size: cover;
+    padding: 20px 0 200px 0;
+}
+
+
+.btn {
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 800;
+    padding: 8px 15px;
+    margin-top: 20px;
+    background-color: #ffffff;
+    color: #5E8A99;
+    border: none;
+}
+
+
+.underline {
+    border-bottom: 4px solid white;
+}
+
+.title {
+    text-shadow: 4px 2px 5px #000;
+}
