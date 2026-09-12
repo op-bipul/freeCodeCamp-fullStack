@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Busketball Score</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="section">
+            <h1 class="heading">HOME</h1>
+            <div class="score">
+                <h1 id="teamOne"></h1>
+            </div>
+            <div class="increments">
+                <button onclick="addOne()">1</button>
+                <button onclick="addTwo()">2</button>
+                <button onclick="addThree()">3</button>
+            </div>
+        </div>
+        <div class="section">
+            <h1 class="heading">GUEST</h1>
+            <div class="score">
+                <h1 id="teamTwo"></h1>
+            </div>
+            <div class="increments">
+                <button onclick="guestAddOne()">1</button>
+                <button onclick="guestAddTwo()">2</button>
+                <button onclick="guestAddThree()">3</button>
+            </div>
+        </div>
+    </div>
+    <div class="reset">
+        <button onclick="reset()">Reset</button>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
