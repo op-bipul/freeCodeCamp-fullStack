@@ -1,0 +1,50 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 400px;
+    height: 400px;
+    background-color: #111c27;
+    color: white;
+    padding: 40px;
+    margin: 40px auto;
+    border-radius: 10px;
+}
+
+.green-txt {
+    color: #4ce885;
+}
+
+.aware-msg {
+    margin: 10px 0 30px 0;
+}
+
+#Generate-btn {
+    display: block;
+    margin-top: 30px;
+    background-color: #4ce885;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+}
+
+.border{
+    border-bottom: 1px solid #4ce88523;
+    margin: 30px 0;
+}
+
+.genarated-PW{
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 20px;
+}
+
+.genarated-PW p{
+    height: 24px;
+    width: 180px;
+    background-color: #192531;
+    padding: 6px 12px;
+}

@@ -1,0 +1,30 @@
+body {
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    background-image: url(images/table.png);
+    background-size: cover;
+    color: white;
+}
+
+h1 {
+    color: goldenrod;
+    margin-top: 40px;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+button {
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    background: goldenrod;
+    color: #016f32;
+    width: 150px;
+    display: block;
+    margin: 0 auto 15px auto;
+}
